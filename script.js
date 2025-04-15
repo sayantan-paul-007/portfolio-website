@@ -86,15 +86,7 @@ import { getFirestore, collection, addDoc } from "https://www.gstatic.com/fireba
 
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyDyJ5IdmOEPh0NW2V1fqxRdu0QZ0gdbOyQ",
-    authDomain: "form-data-submission-64cdf.firebaseapp.com",
-    projectId: "form-data-submission-64cdf",
-    storageBucket: "form-data-submission-64cdf.appspot.com",
-    messagingSenderId: "120494484185",
-    appId: "1:120494484185:web:da02f46504b0a6aea8acc8",
-    measurementId: "G-ZHR4H4R179"
-  };
+  import {firebaseConfig} from './firebase-config'
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
